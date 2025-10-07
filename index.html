@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Случайные факты о странах</h1>
+
+    <div class="controls">
+      <button id="getCountryBtn">Получит страну</button>
+    </div>
+
+    <section id="countryBlock" class="country-block">
+      <!-- сюда будем рендерить страну -->
+      <p class="hint">Нажмите «Получить страну» чтобы начать.</p>
+    </section>
+
+    <section class="favorites-section">
+      <h2>Избранное</h2>
+      <!-- <h2>MADE IN TJK</h2> -->
+      <ul id="favoritesList" class="favorites-list"></ul>
+    </section>
+
+    <div id="message" class="message" aria-live="polite"></div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
