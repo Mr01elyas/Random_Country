@@ -131,3 +131,85 @@ button:hover {
     text-align: center;
 }
 
+
+/*   Адаптив для телефонов */
+
+@media (max-width: 600px){
+    body {
+        padding: 12px;
+    }
+
+.container {
+    max-width: 100%;
+    padding: 0 8px;
+    }
+
+.country-block{
+    padding: 14px;
+    min-height: auto;
+    }
+
+
+/* for flag */
+.country-content {
+    flex-direction: column;
+    gap: 16px;
+    align-items: stretch;
+    }
+
+.country-flag {
+     text-align: left;
+    }
+
+.country-flag img {
+    max-width: 180px;
+    margin: 0 auto;
+    }
+
+
+.country-info .name {
+    font-size: 1.15em;
+    margin-bottom: 10px;
+    }
+
+.country-details p {
+    font-size: 0.95em;
+    }
+
+/* buttons-column */
+
+.action {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    }
+
+.action button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    }
+
+/* favorits in one column */
+.favorites-list {
+    grid-template-columns: 1fr; /* grid css practis some new */
+    gap: 10px;
+    }
+
+.favorites-list li {
+    padding: 10px 12px;
+    }
+
+
+.message {
+    margin-top: 10px;
+    padding: 8px;
+    font-size: 0.95em;
+    }
+
+img {
+    max-width: 100%;
+    height: auto;
+    }
+
+} 
