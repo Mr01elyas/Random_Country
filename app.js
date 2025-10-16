@@ -28,7 +28,7 @@ function init() {
   });
 }
 
-/* --- Работа.API--- */
+// Работа.API
 
 async function fetchAllCountries() {
   if (allCountries.length) return allCountries;
@@ -50,7 +50,7 @@ function getRandomElement(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
 }
 
-/* ---------- Обработка событий ---------- */
+//Обработка событи
 
 async function handleGetCountry() {
   try {
@@ -80,7 +80,7 @@ function handleAddToFavorites() {
   showMessage(`Добавлено в избранное: ${currentCountry.name}`, false);
 }
 
-/* ----------горизонтальныи---------- */
+//горизонтальныи
 function renderCountry(country) {
   countryBlock.innerHTML = ''; // очистка
   
@@ -140,7 +140,7 @@ function renderCountry(country) {
   countryBlock.appendChild(countryContent);
 }
 
-/* ----------LocalStorage---------- */
+//LocalStorage
 
 function loadFavoritesFromLocalStorage() {
   try {
